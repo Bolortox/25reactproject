@@ -1,13 +1,11 @@
 import { Accordion } from "@/components/accordian";
 import RandomColor from "@/components/random-color";
 
-export default function Home() {
+export default function Page() {
   return (
     <div>
-      <div>
-        
-        <RandomColor/>
-      </div>
+      <Accordion/>
+
     </div>
   );
 }
