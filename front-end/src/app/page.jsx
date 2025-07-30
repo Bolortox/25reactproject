@@ -1,12 +1,10 @@
-import { Accordion } from "@/components/accordian";
-import RandomColor from "@/components/random-color";
+import Beginner from "@/components/beginner/BMIcalc";
 
 export default function Home() {
   return (
     <div>
       <div>
         
-        <RandomColor/>
       </div>
     </div>
   );
